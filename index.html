@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      height: 748px;
+      width: 748px;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px ;
+      background-color: #000; 
+    }
+
+    .obj1 {
+      background-color: #E72F24;
+    }
+
+    .obj2 {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+
+    .obj3 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .obj4 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .obj5 {
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+
+    .obj6 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .obj7 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .obj8 {
+      background-color: #F9D01E;
+    }
+
+    .obj9 {
+      background-color: #232629;
+    }
+
+  </style>
+</head>
+
+<body>
+ 
+   <div class="container">
+    <div class="obj1"></div>
+    <div class="obj2"></div>
+    <div class="obj3"></div>
+    <div class="obj4"></div>
+    <div class="obj5"></div>
+    <div class="obj6"></div>
+    <div class="obj7"></div>
+    <div class="obj8"></div>
+    <div class="obj9"></div>
+   </div>
+</body>
+
+</html>
